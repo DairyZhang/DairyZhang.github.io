@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人简历</title>
+    <!--设置ico图标-->
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      /* * {
+        border: 1px solid black;
+      } */
+      .yinYing {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .flex {
+        display: flex;
+      }
+      .baiSe {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .daoHang {
+        padding: 10px 20px;
+        font-size: 14px;
+        color: #fff;
+      }
+      .lieBiao {
+        padding: 10px 20px;
+      }
+      /* 当屏幕小于600px时要改变的CSS */
+      @media (max-width: 600px) {
+        .ceBian {
+          display: none;
+        }
+        .neiRong {
+          flex-direction: column;
+        }
+        .shuJuQu {
+          flex-direction: column;
+        }
+        .shuJu {
+          margin: 0 0 8px;
+          flex: auto;
+        }
+        .neiRong::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!--侧边栏-->
+    <div
+      style="width: 300px; background-color: grey; z-index: 2"
+      class="ceBian yinYing"
+    >
+      <!--头像栏-->
+      <div
+        style="
+          padding: 8.9px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #ffffff;
+        "
+        class="flex"
+      >
+        <img
+          src="https://i.postimg.cc/Dz8P2hZ4/Avatar.jpg"
+          width="40px"
+          height="40px"
+          alt="头像"
+        />
+        <div style="margin-left: 83px; color: #fff">
+          DAIRY ZHANG<br />资深外贸经理人
+        </div>
+      </div>
+      <!--导航栏-->
+      <div class="flex1">
+        <div class="daoHang"><h3>联系方式</h3></div>
+        <div class="daoHang">电话：173 xxxx 2663</div>
+        <div class="daoHang">邮箱：dairyxxxx@gmail.com</div>
+        <div class="daoHang">网页：https://www.dairyzhang.ml</div>
+        <div class="daoHang">住址：浙江省宁波市江北区庄桥街道</div>
+        <div class="daoHang"><h3>教育经历</h3></div>
+        <div class="daoHang">2017—2020</div>
+        <div class="daoHang">宁波教育学院（宁波电大）</div>
+        <div class="daoHang">国际经济与贸易专业专科</div>
+
+        <div class="daoHang"><h3>语言能力</h3></div>
+        <div class="daoHang">CET4：443</div>
+        <div class="daoHang">CET6：423</div>
+        <div class="daoHang">PSC：87-2A</div>
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div style="height: 60px; z-index: 1" class="baiSe yinYing">
+        <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+          Copyright &copy; 1999-2023
+          <strong
+            ><a href="https://www.dairyzhang.ml" target="_blank"
+              >dairyzhang</a
+            ></strong
+          >&nbsp; All Rights Reserved.
+          违法和不良行为举报邮箱：jubao@dairyzhang.com
+        </div>
+      </div>
+      <!--内容区-->
+      <div style="overflow: auto" class="neiRong flex1 flex">
+        <!--左区-->
+        <div style="flex: 3" class="flex column mg8">
+          <!--数据区-->
+          <div class="flex shuJuQu">
+            <!--数据块-->
+            <div style="height: 100px" class="shuJu flex1 baiSe mgr8 yinYing">
+              <img
+                src="Google.png"
+                width="80px"
+                height="80px"
+                alt="Google"
+                border="0"
+                style="margin-top: 10px; margin-left: 105px"
+              />
+            </div>
+            <!--数据块-->
+            <div style="height: 100px" class="shuJu flex1 baiSe mgr8 yinYing">
+              <img
+                src="Instagram.png"
+                width="80px"
+                height="80px"
+                alt="Instagram"
+                border="0"
+                style="margin-top: 10px; margin-left: 105px"
+              />
+            </div>
+            <!--数据块-->
+            <div style="height: 100px" class="shuJu flex1 baiSe mgr8 yinYing">
+              <img
+                src="Facebook.png"
+                width="80px"
+                height="80px"
+                alt="Facebook"
+                border="0"
+                style="margin-top: 10px; margin-left: 105px"
+              />
+            </div>
+            <!--数据块-->
+            <div style="height: 100px" class="shuJu flex1 baiSe yinYing">
+              <img
+                src="LinkedIn.png"
+                width="80px"
+                height="80px"
+                alt="LinkedIn"
+                border="0"
+                style="margin-top: 10px; margin-left: 105px"
+              />
+            </div>
+          </div>
+          <!--列表区-->
+          <div class="flex column">
+            <!--列表项-->
+            <div style="height: 160px" class="baiSe mgt8 yinYing">
+              <h2
+                style="margin-top: 2px; margin-left: 20px; margin-bottom: 8px"
+              >
+                个人介绍
+              </h2>
+              <p style="margin-left: 20px">
+                1、大专学历，英语四级，听说读写熟练，口语可作为工作语言使用。<br />
+                2、拥有三年以上外贸客户开发经验，熟练使用各种社媒（Google、Instagram、Facebook、LinkedIn等）、<br />
+                国际站（Alibaba、Made-in-China等）、线下展会（Canton
+                Fair等）、ERP系统（小满、孚盟、富通天下等）进行客户开发及客户信息管理。<br />
+                3、有防疫物资、家居装饰、高低压工业电气、太阳能光伏设备、家用电器及配件等相关行业产品的外贸经验。<br />
+                4、Push型人才，思维灵活，沟通能力佳，抗压能力强。
+              </p>
+            </div>
+            <!--列表项-->
+            <div style="height: 160px" class="baiSe mgt8 yinYing">
+              <h2
+                style="margin-top: 2px; margin-left: 20px; margin-bottom: 8px"
+              >
+                工作经历1
+              </h2>
+              <p style="margin-left: 20px">
+                2022-6—2023-4
+                <b>宁波摩科电器-外贸业务员</b
+                >：<br />负责开发及维护客户，推荐产品，做报价，进行商务谈判以及签订合同；<br />
+                配合采购部签订及跟进工厂合同，作为国外客户与供应商的桥梁，
+                传递准确信息并提供相关资料以解决各种问题；<br />
+                在公司内部与跟单、采购、单证等有关人员沟通协调各种订单、出货事项。
+              </p>
+            </div>
+            <!--列表项-->
+            <div style="height: 160px" class="baiSe mgt8 yinYing">
+              <h2 style="margin-top: 2px; margin-left: 20px">工作经历2</h2>
+              <p style="margin-left: 20px">
+                2020-2—2022-6
+                <b>长城电器集团-外贸业务员</b
+                >：<br />负责海外市场高低压电气开关产品及成套设备的业务开发和维护；<br />
+                配合区域内用户完成系统解决方案、产品选型等售前、售后的支持工作；<br />
+                收集市场最新政策以及竞争对手信息，参与公司产品和品牌的海外推广，参加各种行业展会和论坛；<br />
+                负责与客户的日常沟通、订单确立、收汇跟进以及客诉处理，调查客户满意度等。
+              </p>
+            </div>
+            <!--列表项-->
+            <div style="height: 160px" class="baiSe mgt8 yinYing">
+              <h2 style="margin-top: 2px; margin-left: 20px">兴趣爱好</h2>
+              <p style="margin-left: 20px">球类、编程、音乐、短视频......</p>
+              <p style="margin-left: 20px">Day Day Up.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
